@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg,rgba(11, 11, 12, 1) 0%, rgba(23, 23, 25, 1) 60%);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(10px);
+    font-family: "Montserrat";
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+nav h2{
+    color: #D4AF37;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+nav input{
+    width: 500px;
+    height: 30px;
+    background-color: transparent;
+    border: solid 2px #D4AF37;
+    padding: 2px 20px;
+    resize: none;
+    border-radius: 3px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    background-image: url(./assets/images/pesquisa-de-lupa.png);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    background-position: 470px center;
+}
+
+nav a{
+    font-weight: 500;
+    color: #D4AF37;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: #F3DE9B;
+    transition: all 0.3s ease;
+}
+
+nav img{
+    width: 35px;
+    height: 35px;
+}
+
+header article{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 90px;
+    font-family: "Montserrat";
+    color: #fff;
+}
+
+header section{
+    height: 430px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header section h1{
+    width: 80%;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+header section p{
+    width: 70%;
+    font-size: 26px;
+    font-weight: 200;
+    margin: -20px 0px 10px 0px;
+}
+
+header section a{
+    width: 25%;
+    height: 55px;
+    padding: 14px 55px;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+    border: solid 2px #D4AF37;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 200px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: -1px 3px 40px -18px #fff ;
+}
+
+header section a:hover{
+    color: #F3DE9B;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+header article img{
+    width: 650px;
+    height: 650px;
+}
+
+.categorias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 90px;
+    font-family: "Montserrat";
+    color: #F3DE9B
+}
+
+.categorias h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.categorias article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categorias a{
+    width: 14%;
+    height: 130px;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+    border: solid 2px #D4AF37;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 600;
+    color: #F3DE9B;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: -1px 3px 40px -25px #fff ;
+}
+
+.uniformes{
+    background-image: url(./assets/images/uniformes-background.png);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    background-position: 30px center;
+}
+
+.bolas{
+    background-image: url(./assets/images/bolas-background.png);
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: 30px center;
+}
+
+.calcados{
+    background-image: url(./assets/images/calcados-background.png);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    background-position: 30px center;
+}
+
+.equipamentos{
+    background-image: url(./assets/images/equipamentos-background.png);
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    background-position: 30px center;
+}
+
+.categorias a:hover{
+    color: #D4AF37;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 90px;
+    margin-top: 90px;
+    font-family: "Montserrat";
+}
+
+.cards h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #F3DE9B;
+    margin-bottom: 30px;
+}
+
+.cards div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 350px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;
+    border: solid 3px #D4AF37;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.card > button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end; 
+    position: absolute;
+}
+
+.favorito{
+    width: 35px;
+    height: 35px;    
+}
+
+.favorito:hover{
+    transform: scale(1.1);
+}
+
+.card figure{
+    align-self: center;
+}
+
+.imagem_produto{
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    transform: scale(1.1);
+    pointer-events: none;
+    margin-bottom: 10px;
+}
+
+.card h3{
+    width: 100%;
+    height: 150px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.card h4{
+    height: 150px;
+    margin-top: 10px;
+    font-size: 26px;
+    color: #D4AF37;
+    font-weight: 600;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.botoes a{
+    width: 200px;
+    height: 40px;
+    padding: 8px 60px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;  
+    background-color: #D4AF37;
+    border-radius: 5px;
+}
+
+.botoes a:hover{
+    background-color: #F3DE9B;
+    transform: scale(1.05);
+}
+
+.botoes button{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    background: none;
+    border: solid 2px #D4AF37;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #D4AF37;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.botoes button img{
+    width: 25px;
+    height: 25px;
+}
+
+.botoes button:hover{
+    transform: scale(1.05);
+}
+
+.promocao{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: center;
+    background-color: #2d2d2d;
+    margin-bottom: 60px;
+}
+
+.promocao img{
+    width: 760px;
+    height: 700px;
+    transform: scale(1.02);
+    margin-top: 3px;
+}
+
+.promocao div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 60px;
+}
+
+.promocao h2{
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 68px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.promocao p{
+    margin-top: 30px;
+    width: 60%;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.promocao span{
+    color: #D4AF37;
+}
+
+.promocao h5{
+    margin-top: 55px;
+    width: 80%;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.temporizador{
+    margin-top: 15px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.temporizador article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 150px;
+    height: 135px;
+    border: solid 2px #D4AF37;
+    border-radius: 15px;
+}
+
+.temporizador article h4{
+    font-family: "Montserrat";
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.temporizador .tempo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.promocao a{
+    width: 280px;
+    height: 50px;
+    margin-top: 50px;
+    font-family: "Montserrat";
+    padding: 14px 65px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;  
+    background-color: #D4AF37;
+    border-radius: 10px;
+}
+
+.promocao a:hover{
+    background-color: #F3DE9B;
+    transform: scale(1.05);
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #D4AF37;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: "Montserrat";
+    color: #000;
+    
+}
+
+footer .conteudo_footer{
+    width: 100%;
+    padding: 30px 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.conteudo_footer h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.conteudo_footer h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.conteudo_footer p{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.conteudo_footer p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+}
+
+.pagamento{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes_sociais{
+    display: flex;
+    flex-direction: column;
+}
+
+footer h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
