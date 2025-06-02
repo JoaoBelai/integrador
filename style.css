@@ -355,7 +355,7 @@ header article img{
     margin-top: 3px;
 }
 
-.promocao .info_promocao{
+.promocao div{
     width: 80%;
     display: flex;
     flex-direction: column;
