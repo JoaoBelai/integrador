@@ -15,11 +15,11 @@ header{
 
 nav{
     width: 100%;
-    height: 60px;
+    height: 3.75rem; 
     display: flex;
     flex-direction: row;
     background-color: rgba(0, 0, 0, 0.08);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0.625rem);
     font-family: "Montserrat";
     align-items: center;
     align-content: center;
@@ -29,30 +29,30 @@ nav{
 nav h2{
     color: #D4AF37;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2.25rem; 
 }
 
 nav input{
-    width: 500px;
-    height: 30px;
+    width: 31.25rem; 
+    height: 1.875rem; 
     background-color: transparent;
-    border: solid 2px #D4AF37;
-    padding: 2px 20px;
+    border: solid 0.125rem #D4AF37; 
+    padding: 0.125rem 1.25rem; 
     resize: none;
-    border-radius: 3px;
+    border-radius: 0.188rem; 
     font-family: "Montserrat";
-    font-size: 14px;
+    font-size: 0.875rem; 
     background-image: url(./assets/images/pesquisa-de-lupa.png);
     background-repeat: no-repeat;
-    background-size: 14px 14px;
-    background-position: 470px center;
+    background-size: 0.875rem 0.875rem; 
+    background-position: 29.375rem center; 
 }
 
 nav a{
     font-weight: 500;
     color: #D4AF37;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -62,24 +62,24 @@ nav a:hover{
 }
 
 nav img{
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem; 
+    height: 2.1875rem; 
 }
 
 header article{
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 90px;
+    padding: 1.25rem 5.625rem; 
     font-family: "Montserrat";
     color: #fff;
 }
 
 header section{
-    height: 430px;
+    height: 26.875rem; 
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -88,32 +88,32 @@ header section{
 
 header section h1{
     width: 80%;
-    font-size: 72px;
+    font-size: 4.5rem; 
     font-weight: 600;
 }
 
 header section p{
     width: 70%;
-    font-size: 26px;
+    font-size: 1.625rem; 
     font-weight: 200;
-    margin: -20px 0px 10px 0px;
+    margin: -1.25rem 0px 0.625rem 0px; 
 }
 
 header section a{
     width: fit-content;
-    height: 55px;
-    padding: 14px 55px;
+    height: 3.4375rem;
+    padding: 0.875rem 3.4375rem; 
     background-color: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(10px);
-    border: solid 2px #D4AF37;
+    backdrop-filter: blur(0.625rem); 
+    border: solid 0.125rem #D4AF37; 
     font-family: "Montserrat";
-    font-size: 20px;
-    font-weight: 200px;
+    font-size: 1.25rem; 
+    font-weight: 200;
     color: #fff;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 0.9375rem; 
     cursor: pointer;
-    box-shadow: -1px 3px 40px -18px #fff ;
+    box-shadow: -0.0625rem 0.1875rem 2.5rem -1.125rem #fff ; 
 }
 
 header section a:hover{
@@ -123,8 +123,8 @@ header section a:hover{
 }
 
 header article img{
-    width: 650px;
-    height: 650px;
+    width: 40.625rem;
+    height: 40.625rem; 
 }
 
 .categorias{
@@ -132,15 +132,15 @@ header article img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px 90px;
+    padding: 0.625rem 5.625rem; 
     font-family: "Montserrat";
     color: #F3DE9B
 }
 
 .categorias h2{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem; 
 }
 
 .categorias article{
@@ -152,47 +152,47 @@ header article img{
 
 .categorias a{
     width: 14%;
-    height: 130px;
-    padding: 50px 20px;
+    height: 8.125rem; 
+    padding: 3.125rem 1.25rem;
     background-color: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(10px);
-    border: solid 2px #D4AF37;
+    backdrop-filter: blur(0.625rem); 
+    border: solid 0.125rem #D4AF37; 
     font-family: "Montserrat";
-    font-size: 25px;
+    font-size: 1.5625rem; 
     font-weight: 600;
     color: #F3DE9B;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 1.5625rem; 
     cursor: pointer;
-    box-shadow: -1px 3px 40px -25px #fff ;
+    box-shadow: -0.0625rem 0.1875rem 2.5rem -1.5625rem #fff ; 
 }
 
 .uniformes{
     background-image: url(./assets/images/uniformes-background.png);
     background-repeat: no-repeat;
-    background-size: 220px 220px;
-    background-position: 30px center;
+    background-size: 13.75rem 13.75rem;
+    background-position: 1.875rem center; 
 }
 
 .bolas{
     background-image: url(./assets/images/bolas-background.png);
     background-repeat: no-repeat;
-    background-size: 250px 250px;
-    background-position: 30px center;
+    background-size: 15.625rem 15.625rem; 
+    background-position: 1.875rem center; 
 }
 
 .calcados{
     background-image: url(./assets/images/calcados-background.png);
     background-repeat: no-repeat;
-    background-size: 220px 220px;
-    background-position: 30px center;
+    background-size: 13.75rem 13.75rem; 
+    background-position: 1.875rem center; 
 }
 
 .equipamentos{
     background-image: url(./assets/images/equipamentos-background.png);
     background-repeat: no-repeat;
-    background-size: 220px 220px;
-    background-position: 30px center;
+    background-size: 13.75rem 13.75rem; 
+    background-position: 1.875rem center; 
 }
 
 .categorias a:hover{
@@ -205,16 +205,16 @@ header article img{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 10px 90px;
-    margin-top: 90px;
+    padding: 0.625rem 5.625rem;
+    margin-top: 5.625rem; 
     font-family: "Montserrat";
 }
 
 .cards h2{
-    font-size: 36px;
+    font-size: 2.25rem; 
     font-weight: bold;
     color: #F3DE9B;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem; 
 }
 
 .cards div{
@@ -225,14 +225,14 @@ header article img{
 }
 
 .card{
-    width: 350px;
-    height: 470px;
+    width: 21.875rem; 
+    height: 29.375rem;
     display: flex;
     flex-direction: column;   
     align-items: flex-start;
-    border: solid 3px #D4AF37;
-    border-radius: 25px;
-    padding: 20px;
+    border: solid 0.1875rem #D4AF37; 
+    border-radius: 1.5625rem; 
+    padding: 1.25rem; 
     background-color: rgba(255, 255, 255, 0.04);
 }
 
@@ -245,8 +245,8 @@ header article img{
 }
 
 .favorito{
-    width: 35px;
-    height: 35px;    
+    width: 2.1875rem; 
+    height: 2.1875rem;    
 }
 
 .favorito:hover{
@@ -259,28 +259,28 @@ header article img{
 
 .imagem_produto{
     align-self: center;
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     object-fit: contain;
     transform: scale(1.1);
     pointer-events: none;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .card h3{
     width: 100%;
-    height: 150px;
-    font-size: 24px;
+    height: 9.375rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #fff;
-    margin-top: -10px;
-    margin-bottom: 10px;
+    margin-top: -0.625rem;
+    margin-bottom: 0.625rem;
 }
 
 .card h4{
-    height: 150px;
-    margin-top: 10px;
-    font-size: 26px;
+    height: 9.375rem;
+    margin-top: 0.625rem;
+    font-size: 1.625rem;
     color: #D4AF37;
     font-weight: 600;
 }
@@ -291,20 +291,20 @@ header article img{
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    gap: 25px;
-    margin-top: 25px;
+    gap: 1.5625rem;
+    margin-top: 1.5625rem;
 }
 
 .botoes a{
-    width: 200px;
-    height: 40px;
-    padding: 8px 60px;
+    width: 12.5rem;
+    height: 2.5rem;
+    padding: 0.5rem 3.75rem;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
     text-decoration: none;  
     background-color: #D4AF37;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 .botoes a:hover{
@@ -313,24 +313,24 @@ header article img{
 }
 
 .botoes button{
-    width: 80px;
-    height: 40px;
+    width: 5rem;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     align-self: flex-end;
     background: none;
-    border: solid 2px #D4AF37;
-    border-radius: 5px;
+    border: solid 0.125rem #D4AF37;
+    border-radius: 0.3125rem;
     cursor: pointer;
     color: #D4AF37;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .botoes button img{
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
 }
 
 .botoes button:hover{
@@ -339,20 +339,20 @@ header article img{
 
 .promocao{
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     align-items: center;
     background-color: #2d2d2d;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .promocao img{
-    width: 760px;
-    height: 700px;
+    width: 47.5rem;
+    height: 43.75rem;
     transform: scale(1.02);
-    margin-top: 3px;
+    margin-top: 0.1875rem;
 }
 
 .promocao div{
@@ -360,22 +360,22 @@ header article img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px 60px;
+    padding: 1.25rem 3.75rem;
 }
 
 .promocao h2{
     width: 100%;
     font-family: "Montserrat";
-    font-size: 68px;
+    font-size: 4.25rem;
     font-weight: 600;
     color: #fff;
 }
 
 .promocao p{
-    margin-top: 30px;
+    margin-top: 1.875rem;
     width: 60%;
     font-family: "Montserrat";
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
     color: #fff;
 }
@@ -385,17 +385,17 @@ header article img{
 }
 
 .promocao h5{
-    margin-top: 55px;
+    margin-top: 3.4375rem;
     width: 80%;
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
 }
 
 .temporizador{
-    margin-top: 15px;
-    width: 700px;
+    margin-top: 0.9375rem;
+    width: 43.75rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -408,18 +408,18 @@ header article img{
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 150px;
-    height: 135px;
-    border: solid 2px #D4AF37;
-    border-radius: 15px;
+    width: 9.375rem;
+    height: 8.4375rem;
+    border: solid 0.125rem #D4AF37;
+    border-radius: 0.9375rem;
 }
 
 .temporizador article h4{
     font-family: "Montserrat";
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: bold;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .temporizador .tempo{
@@ -428,25 +428,25 @@ header article img{
     flex-direction: column;
     align-items: center;
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #fff;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .promocao a{
-    width: 280px;
-    height: 50px;
-    margin-top: 50px;
+    width: 17.5rem;
+    height: 3.125rem;
+    margin-top: 3.125rem;
     font-family: "Montserrat";
-    padding: 14px 65px;
+    padding: 0.875rem 4.0625rem;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #000;
     text-decoration: none;  
     background-color: #D4AF37;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .promocao a:hover{
@@ -455,7 +455,7 @@ header article img{
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     width: 100%;
     background-color: #D4AF37;
     display: flex;
@@ -464,12 +464,11 @@ footer{
     flex-direction: column;
     font-family: "Montserrat";
     color: #000;
-    
 }
 
 footer .conteudo_footer{
     width: 100%;
-    padding: 30px 90px;
+    padding: 1.875rem 5.625rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -478,18 +477,18 @@ footer .conteudo_footer{
 }
 
 .conteudo_footer h2{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
 }
 
 .conteudo_footer h5{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 .conteudo_footer p{
-    margin-top: 12px;
-    font-size: 18px;
+    margin-top: 0.75rem;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
@@ -514,8 +513,8 @@ footer .conteudo_footer{
 }
 
 footer h6{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    font-size: 1.25rem;
     font-weight: bold;
 }
