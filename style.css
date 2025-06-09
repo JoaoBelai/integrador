@@ -766,3 +766,81 @@ footer h6{
     background-color: #F3DE9B;
     transform: scale(1.1);
 }
+
+
+/* Tela pedidos */
+
+.pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pedidos h1{
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.entrega{
+    align-self: flex-start;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px 90px;
+    font-family: "Montserrat";
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.entrega h2{
+    font-size: 40px;
+    width: 700px;
+}
+
+.info_entrega{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.info_entrega .imagem_produto{
+    width: 350px;
+    height: 350px;
+}
+
+.info_entrega img{
+    width: 100%;
+    height: 100%;
+}
+
+.info_entrega article{
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.info_entrega article h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.fases_entrega{
+    width: 600px;
+    height: 150px;
+    margin-bottom: 35px;
+}
+
+.info_entrega article p{
+    width: 600px;
+    font-size: 22px;
+    font-weight: 400;
+}
