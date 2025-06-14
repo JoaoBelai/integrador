@@ -786,6 +786,8 @@ footer h6{
     margin-bottom: 120px;
 }
 
+/* Produto para entrega */
+
 .entrega{
     align-self: flex-start;
     width: 1200px;
@@ -843,4 +845,502 @@ footer h6{
     width: 600px;
     font-size: 22px;
     font-weight: 400;
+}
+
+/* Tela Busca */
+
+.busca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+
+/* filtro */
+
+.filtro{
+    margin-top: 130px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    color: #FFF;
+    gap: 35px;
+}
+
+.filtro h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.filtro article{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 20px;
+    gap: 15px;
+}
+
+.filtro h4{
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom:5px;
+}
+
+.filtro article label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.filtro article input[type="checkbox"] {
+    appearance: none;
+    background-color: transparent;
+    border: 1.5px solid #D4AF37;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative; 
+}
+
+.filtro article input[type="checkbox"]::after {
+    content: "✔";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 16px;
+    color: #000;
+    display: none;
+}
+
+.filtro article input[type="checkbox"]:checked {
+    background-color: #D4AF37;
+}
+
+.filtro article input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+.filtro .faixa_preco input{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1.5px solid #D4AF37;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 18px;
+    padding: 5px 16px;
+}
+
+.filtro .faixa_preco span{
+    color: #D4AF37;
+}
+
+/* cards */
+
+.cards-busca{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 50px; 
+    font-family: "Montserrat";
+}
+
+.cards-busca h2{
+    font-size: 32px; 
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 70px; 
+}
+
+.cards-busca span{
+    font-size: 32px; 
+    font-weight: bold;
+    color: #D4AF37;
+    margin-bottom: 60px; 
+}
+
+.cards-busca div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+/* Carrinho de compras */
+
+.carrinho{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 90px;
+    font-family: "Montserrat";
+}
+
+.carrinho h1{
+    align-self: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFF;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.carrinho .conteudo-carrinho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* produtos */
+
+.produtos-carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.card-carrinho{
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid #D4AF37;
+    background: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    gap: 60px;
+}
+
+.card-carrinho figure{
+    width: 230px;
+    height: 90%;
+}
+
+.card-carrinho img{
+    width: 230px;
+    height: 100%;
+}
+
+.info-produto-carrinho h3{
+    width: 360px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.info-produto-carrinho p{
+    width: 360px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.info-produto-carrinho article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 170px;
+}
+
+
+.info-produto-carrinho article h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+.info-produto-carrinho article button{
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 2px solid #D4AF37;
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.info-produto-carrinho article button img{
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.info-produto-carrinho article button:hover{
+    transform: scale(1.1);
+}
+
+/* Preço total */
+
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+}
+
+.total h2{
+    font-size: 55px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.total a{
+    font-family: "Montserrat";
+    text-decoration: none;
+    width: 340px;
+    height: 65px;
+    background-color: #D4AF37;
+    border-radius: 10px;
+    color: #000;
+    font-size: 26px;
+    padding: 15px 55px;
+    font-weight: 700;
+}
+
+.total a:hover{
+    transform: scale(1.1);
+    background-color: #F3DE9B;
+}
+
+/* Tela de perfil */
+
+.info-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 50px 90px;
+}
+
+.info-perfil h1{
+    font-family: "Montserrat";
+    color: #FFF;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.info-perfil div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+}
+
+.foto-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-perfil figure{
+    width: 300px;
+    height: 300px;
+}
+
+.foto-perfil img{
+    width: 100%;
+    height: 100%;
+}
+
+.foto-perfil a{
+    width: 110px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    font-weight: 500;
+    color: #FFF;
+    font-family: "Montserrat";
+    gap: 5px;
+    background-color: #C71E1E;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.foto-perfil a img{
+    width: 20px;
+    height: 20px;
+}
+
+.foto-perfil a:hover{
+    transform: scale(1.1);
+    background-color: #e92c2c;
+}
+
+.dados-pessoa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dados-pessoa label{
+    font-family: "Montserrat";
+    color: #D4AF37;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.dados-pessoa input{
+    width: 550px;
+    height: 35px;
+    border: 1px solid #D4AF37;
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.dados-endereco{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.dados-endereco label{
+    font-family: "Montserrat";
+    color: #D4AF37;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.dados-endereco input{
+    height: 35px;
+    border: 1px solid #D4AF37;
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.dados-endereco input, #bairro{
+    width: 550px;
+}
+
+.dados-endereco input, #n, #cep{
+    width: 190px;
+}
+
+.dados-endereco input, #cidade, #rua{
+    width: 355px;
+}
+
+
+.dados-endereco div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dados-endereco div article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-perfil button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 210px;
+    height: 32px;
+    position: absolute;
+    bottom: 45%;
+    right: 7%;
+    background-color: #D4AF37;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.info-perfil button img{
+    width: 20px;
+    height: 20px;
+}
+
+.info-perfil button:hover{
+    transform: scale(1.1);
+    background-color: #F3DE9B;
+}
+
+/* Suas compras */
+
+.suas-compras{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 90px;
+    font-family: "Montserrat";
+}
+
+.suas-compras h2{
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #F3DE9B;
+    font-weight: bold;
+}
+
+.suas-compras .card-carrinho{
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid #D4AF37;
+    background: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    gap: 60px;
+}
+
+.suas-compras .card-carrinho figure{
+    width: 230px;
+    height: 90%;
+}
+
+.suas-compras .card-carrinho img{
+    width: 230px;
+    height: 100%;
+}
+
+.suas-compras .info-produto-carrinho h3{
+    width: 450px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.suas-compras .info-produto-carrinho p{
+    width: 360px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.suas-compras .info-produto-carrinho h4{
+    font-size: 18px;
+    font-weight: 100;
+    color: #FFF;
+    margin-bottom: 15px;
 }

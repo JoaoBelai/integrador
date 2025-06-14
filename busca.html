@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Pesquisa</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -34,56 +34,48 @@
                 <figure><img src="./assets/images/usuario-de-perfil.png" alt="perfil"/></figure>
                 <p>Perfil</p>
             </a>
-            
         </nav>
-
-        <article>
-            <section>
-                <h1>TÊNIS DO FLU GAME DO JORDAN</h1>
-                <p>Uma peça histórica de Michael Jordan, feita para colecionadores que vivem o legado.</p>
-                <a href="">Confira agora</a>
-            </section>
-
-            <figure>
-                <img src="./assets/images/banner_jordan.png" alt="Tênis do Flu game do Jordan"/>
-            </figure>
-        </article>
     </header>
 
-    <main>
-        <section class="categorias">
-            <h2>Categorias</h2>
-    
+    <main class="busca">
+        <aside class="filtro">
+            <h3>Filtro:</h3>
+
             <article>
-                <a class="uniformes" href="/produtos.html#uniformes">Uniformes</a>
-                <a class="bolas" href="/produtos.html#bolas">Bolas</a>
-                <a class="calcados" href="/produtos.html#calcados">Calçados</a>
-                <a class="equipamentos" href="/produtos.html#equipamentos">Equipamentos</a>
-                <a class="quadros" href="/produtos.html#quadros">Quadros</a>
+                <h4>Preço:</h4>
+
+                <label><input type="checkbox">Maior Preço</label>
+                <label><input type="checkbox">Menor Preço</label>
+
+                <div class="faixa_preco">
+                    <input type="text" placeholder="Mínimo">
+                    <span>—</span>
+                    <input type="text" placeholder="Máximo">
+                </div>
             </article>
-        </section>
-    
-        <section class="cards">
-            <h2>Recém Chegados:</h2>
+
+            <article>
+                <h4>Nome do item:</h4>
+                
+                <label><input type="checkbox">A-Z</label>
+                <label><input type="checkbox">Z-A</label>
+            </article>
+
+            <article>
+                <h4>Categoria:</h4>
+
+                <label><input type="checkbox">Bolas</label>
+                <label><input type="checkbox">Calçados</label>
+                <label><input type="checkbox">Equipamentos</label>
+                <label><input type="checkbox">Quadros</label>
+                <label><input type="checkbox">Uniformes</label>
+            </article>
+        </aside>
+
+        <section class="cards-busca">
+            <h2>Resultados para <span>"Futebol"</span></h2>
     
             <div>
-                <article class="card">
-                    <button>
-                        <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
-                    </button>
-                    <figure>
-                        <img class="imagem_produto" src="./assets/images/tenis-jordan.png" alt="Tênis do Jordan, Flu Game"/>
-                    </figure>
-    
-                    <h3>Tênis do Flu Game do Jordan</h3>
-                    <h4>R$15.999,00</h4>
-    
-                    <section class="botoes">
-                        <a href="">Comprar</a>
-                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
-                    </section>
-                </article>
-    
                 <article class="card">
                     <button>
                         <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
@@ -106,6 +98,23 @@
                         <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
                     </button>
                     <figure>
+                        <img class="imagem_produto" src="./assets/images/camisa_2002.png" alt="Camiseta Copa 2002 assinada"/>
+                    </figure>
+    
+                    <h3>Camiseta Copa de 2002 Assinada pelo time</h3>
+                    <h4>R$11.999,00</h4>
+    
+                    <section class="botoes">
+                        <a href="">Comprar</a>
+                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
+                    </section>
+                </article>
+
+                <article class="card">
+                    <button>
+                        <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
+                    </button>
+                    <figure>
                         <img class="imagem_produto" src="./assets/images/chuteira_rivellino.png" alt="Chuteira do Rivellino copa de 1970"/>
                     </figure>
     
@@ -117,108 +126,16 @@
                         <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
                     </section>
                 </article>
-    
+
                 <article class="card">
                     <button>
                         <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
                     </button>
                     <figure>
-                        <img class="imagem_produto" src="./assets/images/capacete_senna.png" alt="Capacete do Senna GP de Mônaco"/>
+                        <img class="imagem_produto" src="./assets/images/bola_champions.png" alt="Bola Final da Champions 2015 Assinada"/>
                     </figure>
     
-                    <h3>Capacete do Senna GP de Mônaco</h3>
-                    <h4>R$8.999,00</h4>
-    
-                    <section class="botoes">
-                        <a href="">Comprar</a>
-                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
-                    </section>
-                </article>
-    
-            </div>
-        </section>
-    
-        <section class="promocao">
-            <figure>
-                <img src="./assets/images/pele.png" alt="Imagem comemoração do Pelé"/>
-            </figure>
-    
-            <div>
-                <h2>OFERTA RELÂMPAGO</h2>
-                <p>Todos os itens de Futebol com desconto de até <span>20%</span></p>
-        
-                <h5>Válida Por:</h5>
-                <section class="temporizador">
-                    <article>
-                        <h4>6</h4>
-                        <p class="tempo">Dias</p>
-                    </article>
-                    <article>
-                        <h4>12</h4>
-                        <p class="tempo">Horas</p>
-                    </article>
-                    <article>
-                        <h4>47</h4>
-                        <p class="tempo">Min.</p>
-                    </article>
-                    <article>
-                        <h4>32</h4>
-                        <p class="tempo">Seg.</p>
-                    </article>
-                </section>
-        
-                <a href="./busca.html">Confira Agora!</a>
-            </div>
-    
-        </section>
-    
-        <section class="cards">
-            <h2>Destaques:</h2>
-    
-            <div>
-                <article class="card">
-                    <button>
-                        <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
-                    </button>
-                    <figure>
-                        <img class="imagem_produto" src="./assets/images/bola_babe.png" alt="Bola de Beisebol do Babe Ruth"/>
-                    </figure>
-    
-                    <h3>Bola de Beisebol do Babe Ruth</h3>
-                    <h4>R$4.999,00</h4>
-    
-                    <section class="botoes">
-                        <a href="">Comprar</a>
-                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
-                    </section>
-                </article>
-    
-                <article class="card">
-                    <button>
-                        <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
-                    </button>
-                    <figure>
-                        <img class="imagem_produto" src="./assets/images/camisa_kobe.png" alt="Regata Kobe 2002 Assinada"/>
-                    </figure>
-    
-                    <h3>Regata Kobe 2002 Assinada</h3>
-                    <h4>R$6.999,00</h4>
-    
-                    <section class="botoes">
-                        <a href="">Comprar</a>
-                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
-                    </section>
-                </article>
-    
-                <article class="card">
-                    <button>
-                        <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
-                    </button>
-                    <figure>
-                        <img class="imagem_produto" src="./assets/images/capacete_tom.png" alt="Capacete Tom Brady Salute to Save"/>
-                    </figure>
-    
-                    <h3>Capacete Tom Brady Salute to Save</h3>
+                    <h3>Bola Final da Champions de 2015 Assinada</h3>
                     <h4>R$9.999,00</h4>
     
                     <section class="botoes">
@@ -226,25 +143,27 @@
                         <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
                     </section>
                 </article>
-    
+
                 <article class="card">
                     <button>
                         <img class="favorito" src="./assets/images/sem-favorito.png" alt="ícone favorito"/>
                     </button>
                     <figure>
-                        <img class="imagem_produto" src="./assets/images/luva_mike.png" alt="Luva do Mike Tyson assinada"/>
+                        <img class="imagem_produto" src="./assets/images/zico.png" alt="Quadro Zico Seleção Assinado"/>
                     </figure>
     
-                    <h3>Luva do Mike Tyson assinada</h3>
-                    <h4>R$12.999,00</h4>
+                    <h3>Quadro Zico Seleção Assinado</h3>
+                    <h4>R$6.999,00</h4>
     
                     <section class="botoes">
                         <a href="">Comprar</a>
                         <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
                     </section>
                 </article>
+
             </div>
         </section>
+
     </main>
 
     <footer>

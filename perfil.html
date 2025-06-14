@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">  
+                <figure class="logo">
+                    <img src="./assets/images/logo_nav.png" alt="logo legacy locker"/>
+                </figure>
+            </a>
+
+            <a href="./busca.html"><input type="text" placeholder="Pesquisar..."/></a>
+
+            <a href="./index.html">Home</a>
+            <a href="./produtos.html">Produtos</a>
+            <a href="./sobre.html">Sobre</a>
+            <a href="./pedidos.html">Pedidos</a>
+            <a href="./carrinho.html" class="icone">
+                <figure><img src="./assets/images/carrinho-carrinho.png" alt="carrinho"/></figure>
+                <p>Carrinho</p>
+            </a>
+            <a href="./perfil.html" class="icone">
+                <figure><img src="./assets/images/usuario-de-perfil.png" alt="perfil"/></figure>
+                <p>Perfil</p>
+            </a>
+        </nav>
+    </header>
+
+    <main class="perfil">
+
+        <section class="info-perfil">
+            <h1>Seu Perfil</h1>
+            
+            <div>
+                <article class="foto-perfil">
+                    <figure>
+                        <img src="./assets/images/usuario-de-perfil.png" alt="Foto de perfil do usuário">
+                    </figure>
+                    <a href=""><img src="./assets/images/porta.png" alt="porta aberta com seta para fora">Logout</a>
+                </article>
+
+                <article class="dados-pessoa">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="O seu nome" value="João Pedro Alves Belai"/>  
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" placeholder="O seu e-mail" value="joaopbelai@gmail.com"/>
+                    <label for="senha">Senha:</label>
+                    <input type="text" id="senha" placeholder="Sua senha" value="********"/>
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" id="complemento" placeholder="Complemento do endereço"/>        
+                </article>
+
+                <article class="dados-endereco">
+                    <div>
+                        <article>
+                            <label for="cep">CEP:</label>
+                            <input type="text" id="cep" placeholder="O seu CEP" value="13075-320"/>
+                        </article>
+                        <article>
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" id="cidade" placeholder="Sua cidade" value="Campinas"/>
+                        </article>
+                    </div>
+
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" placeholder="O seu bairro" value="Jd. Nossa Senhora Auxiliadora"/>
+
+                    <div>
+                        <article>
+                            <label for="rua">Rua:</label>
+                            <input type="text" id="rua" placeholder="A sua rua" value="Mac-Hardy"/>
+                        </article>
+                        <article>
+                            <label for="n">N°:</label>
+                            <input type="text" id="n" placeholder="Número da sua casa" value="215"/>
+                        </article>
+                    </div>
+                    <button> Salvar Informações <img src="./assets/images/salvar.png" alt="botão de salvamento"></button>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="cards">
+            <h2>Favoritos:</h2>
+    
+            <div>
+                <article class="card">
+                    <button>
+                        <img class="favorito" src="./assets/images/favorito.png" alt="ícone favorito"/>
+                    </button>
+                    <figure>
+                        <img class="imagem_produto" src="./assets/images/capacete_senna.png" alt="Capacete do Senna GP de Mônaco"/>
+                    </figure>
+    
+                    <h3>Capacete do Senna GP de Mônaco</h3>
+                    <h4>R$8.999,00</h4>
+    
+                    <section class="botoes">
+                        <a href="">Comprar</a>
+                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
+                    </section>
+                </article>
+    
+                <article class="card">
+                    <button>
+                        <img class="favorito" src="./assets/images/favorito.png" alt="ícone favorito"/>
+                    </button>
+                    <figure>
+                        <img class="imagem_produto" src="./assets/images/camisa_2002.png" alt="Camiseta Copa 2002 assinada"/>
+                    </figure>
+    
+                    <h3>Camiseta Copa de 2002 Assinada pelo time</h3>
+                    <h4>R$11.999,00</h4>
+    
+                    <section class="botoes">
+                        <a href="">Comprar</a>
+                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
+                    </section>
+                </article>
+    
+                <article class="card">
+                    <button>
+                        <img class="favorito" src="./assets/images/favorito.png" alt="ícone favorito"/>
+                    </button>
+                    <figure>
+                        <img class="imagem_produto" src="./assets/images/camisa_lebron.png" alt="Jersey Lebron James Rookie Year Assinada"/>
+                    </figure>
+    
+                    <h3>Jersey Lebron James Rookie Year Assinada</h3>
+                    <h4>R$8.999,00</h4>
+    
+                    <section class="botoes">
+                        <a href="">Comprar</a>
+                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"></button>
+                    </section>
+                </article>
+    
+                <article class="card">
+                    <button>
+                        <img class="favorito" src="./assets/images/favorito.png" alt="ícone favorito"/>
+                    </button>
+                    <figure>
+                        <img class="imagem_produto" src="./assets/images/chuteira_rivellino.png" alt="Chuteira do Rivellino copa de 1970"/>
+                    </figure>
+    
+                    <h3>Chuteira do Rivellino copa de 1970</h3>
+                    <h4>R$10.999,00</h4>
+    
+                    <section class="botoes">
+                        <a href="">Comprar</a>
+                        <button>+<img src="./assets/images/carrinho-carrinho.png" alt="ícone carrinho"/></button>
+                    </section>
+                </article>
+            </div>
+        </section>
+
+        <section class="suas-compras">
+            <h2>Suas Compras:</h2>
+
+            <article class="card-carrinho">
+                <figure>
+                    <img class="imagem_produto" src="./assets/images/camisa-messi.png" alt="Camiseta Messi 2017"/>
+                </figure>
+
+                <div class="info-produto-carrinho">
+                    <h3>Icônica Camiseta do Messi</h3>
+                    <p>A comemoração que calou um estádio...</p>
+
+                    <h4>Saiu para entrega</h4>
+                    <h5>Entrega prevista para dia 30 de maio</h5>
+                    
+                    <a href="./pedidos.html">Acompanhar pedido</a>
+                </div>
+            </article>
+        </section>
+        
+    </main>
+
+    <footer>
+        <section class="conteudo_footer">
+            <figure>
+                <img src="./assets/images/logo_preta.png" alt="logo legacy locker preta"/>
+            </figure>
+    
+            <section class="sobre">
+                <h5>Sobre</h5>
+                <p>Sobre Nós</p>
+                <p>Trabalhe Conosco</p>
+                <p>Informações Corporativas</p>
+                <p>Central de Ajuda</p>
+            </section>
+    
+            <section class="pagamento">
+                <h5>Formas de Pagamento</h5>
+                <p>Meios de Pagamento</p>
+                <p>Compre com Pontos</p>
+                <p>Cartão de Crédito</p>
+                <p>Nota Fiscal</p>
+            </section>
+    
+            <section class="redes_sociais">
+                <h5>Redes Sociais</h5>
+                <p>WhatsApp</p>
+                <p>Instagram</p>
+                <p>Youtube</p>
+                <p>TikTok</p>
+            </section>
+        </section>
+
+        <h6>Todos os direitos reservados © 2025 | João Belai</h6>
+    </footer>
+    
+</body>
+</html>
