@@ -745,6 +745,7 @@ footer h6{
     color: #fff;
     border-radius: 0.3125rem;
     resize: none;
+    font-family: "Montserrat";
 }
 
 .formulario button {
@@ -1683,7 +1684,7 @@ footer h6{
     height: 90%;
 }
 
-.favorito{
+.favorito-produto{
     width: 55px;
     height: 55px;
     position: absolute;
@@ -1692,7 +1693,7 @@ footer h6{
     cursor: pointer;
 }
 
-.favorito img{
+.favorito-produto img{
     width: 100%;
     height: 100%;
 }
@@ -1829,3 +1830,141 @@ footer h6{
     color: #D4AF37;
 }
 
+/* login */
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 600px;
+    background-color: #2d2d2d;
+    border-radius: 25px;
+}
+
+.login figure{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.login img{
+    width: 100%;
+    height: 100%;
+}
+
+.login h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.login form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login form label{
+    width: 90%;
+    font-size: 24px;
+    font-weight: 400;
+    color: #D4AF37;
+    margin-top: 30px;
+}
+
+.login form input{
+    box-sizing: border-box;
+    width: 90%;
+    height: 35px;
+    border: 1px solid #D4AF37;
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.login #senha, #confirmar-senha{
+    background-image: url(./assets/images/senha.png);
+    background-repeat: no-repeat;
+    background-size: 22px 22px; 
+    background-position: 500px center; 
+}
+
+.login form p{
+    align-self: flex-start;
+    margin-left: 30px;
+    color: #D4AF37;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.login form p:hover{
+    text-decoration: underline;
+}
+
+.login form button{
+    width: 60%;
+    height: 45px;
+    background-color: #D4AF37;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.login form button:hover{
+    background-color: #F3DE9B;
+    transform: scale(1.05);
+}
+
+.botao-cadastro{
+    margin-top: 35px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #D4AF37;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+.login form article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.login form article div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login form article div input{
+    width: 100%;
+}

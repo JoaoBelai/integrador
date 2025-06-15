@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Endereço</title>
+
+    <link rel="icon" type="image/png" href="./assets/images/logo_escudo.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">  
+                <figure class="logo">
+                    <img src="./assets/images/logo_nav.png" alt="logo legacy locker"/>
+                </figure>
+            </a>
+
+            <a href=""><input type="text" placeholder="Pesquisar..."/></a>
+
+            <a href="./index.html">Home</a>
+            <a href="">Produtos</a>
+            <a href="">Sobre</a>
+            <a href="">Pedidos</a>
+            <a href="" class="icone">
+                <figure><img src="./assets/images/carrinho-carrinho.png" alt="carrinho"/></figure>
+                <p>Carrinho</p>
+            </a>
+            <a href="" class="icone">
+                <figure><img src="./assets/images/usuario-de-perfil.png" alt="perfil"/></figure>
+                <p>Perfil</p>
+            </a>
+        </nav>
+    </header>
+
+    <main class="main-login">
+
+        <section class="login">
+            <figure>
+                <img src="./assets/images/logo_escudo.png" alt="Logo Legacy Locker">
+            </figure>
+            
+            <h1>Endereço</h1>
+
+            <form action="home.html" method="GET">
+                <article>
+                    <div>
+                        <label for="cep-endereco">CEP:</label>
+                        <input type="text" id="cep-endereco" placeholder="O seu CEP" required/>
+                    </div>
+                    <div>
+                        <label for="n-endereco">N°:</label>
+                        <input type="text" id="n-endereco" placeholder="O número da sua casa" required/> 
+                    </div>
+                </article>
+                <label for="rua-endereco">Rua:</label>
+                <input type="text" id="rua-endereco" placeholder="A rua da sua casa" required/>
+                <label for="bairro-endereco">Bairro:</label>
+                <input type="text" id="bairro-endereco" placeholder="O seu bairro" required/>
+                <label for="cidade-endereco">Cidade:</label>
+                <input type="text" id="cidade-endereco" placeholder="Sua cidade" required/>
+                <label for="complemento-endereco">Complemento:</label>
+                <input type="text" id="complemento-endereco" placeholder="Complemento do seu endereço"/>
+
+                <button type="submit" class="botao-cadastro">Finalizar Cadastro</button>
+            </form>
+
+            <a href="./login.html">Já tem uma conta? Faça login agora!</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="conteudo_footer">
+            <figure>
+                <img src="./assets/images/logo_preta.png" alt="logo legacy locker preta"/>
+            </figure>
+    
+            <section class="sobre">
+                <h5>Sobre</h5>
+                <p>Sobre Nós</p>
+                <p>Trabalhe Conosco</p>
+                <p>Informações Corporativas</p>
+                <p>Central de Ajuda</p>
+            </section>
+    
+            <section class="pagamento">
+                <h5>Formas de Pagamento</h5>
+                <p>Meios de Pagamento</p>
+                <p>Compre com Pontos</p>
+                <p>Cartão de Crédito</p>
+                <p>Nota Fiscal</p>
+            </section>
+    
+            <section class="redes_sociais">
+                <h5>Redes Sociais</h5>
+                <p>WhatsApp</p>
+                <p>Instagram</p>
+                <p>Youtube</p>
+                <p>TikTok</p>
+            </section>
+        </section>
+
+        <h6>Todos os direitos reservados © 2025 | João Belai</h6>
+    </footer>
+    
+</body>
+</html>
