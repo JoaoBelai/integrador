@@ -258,7 +258,7 @@ header article img{
     width: 21.875rem; 
     height: 29.375rem;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
     align-items: flex-start;
     border: solid 0.1875rem #D4AF37; 
     border-radius: 1.5625rem; 
@@ -276,7 +276,7 @@ header article img{
 
 .favorito{
     width: 2.1875rem; 
-    height: 2.1875rem;    
+    height: 2.1875rem; 
 }
 
 .favorito:hover{
@@ -287,7 +287,7 @@ header article img{
     align-self: center;
 }
 
-.imagem_produto{
+.imagemProduto{
     align-self: center;
     width: 15.625rem;
     height: 15.625rem;
@@ -332,7 +332,7 @@ header article img{
     font-weight: 700;
     font-size: 1.125rem;
     color: #000;
-    text-decoration: none;  
+    text-decoration: none; 
     background-color: #D4AF37;
     border-radius: 0.3125rem;
 }
@@ -476,7 +476,7 @@ header article img{
     font-weight: 700;
     font-size: 1.25rem;
     color: #000;
-    text-decoration: none;  
+    text-decoration: none; 
     background-color: #D4AF37;
     border-radius: 0.625rem;
 }
@@ -500,7 +500,7 @@ footer{
     color: #000;
 }
 
-footer .conteudo_footer{
+footer .conteudoFooter{
     width: 100%;
     padding: 1.875rem 5.625rem;
     display: flex;
@@ -510,33 +510,33 @@ footer .conteudo_footer{
     justify-content: space-between;
 }
 
-.conteudo_footer figure{
+.conteudoFooter figure{
     width: 15.625rem;
     height: 15.625rem;
 }
 
-.conteudo_footer figure img{
+.conteudoFooter figure img{
     width: 100%;
     height: 100%;
 }
 
-.conteudo_footer h2{
+.conteudoFooter h2{
     font-size: 2.25rem;
     font-weight: bold;
 }
 
-.conteudo_footer h5{
+.conteudoFooter h5{
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.conteudo_footer p{
+.conteudoFooter p{
     margin-top: 0.75rem;
     font-size: 1.125rem;
     font-weight: 400;
 }
 
-.conteudo_footer p:hover{
+.conteudoFooter p:hover{
     cursor: pointer;
     text-decoration: underline;
 }
@@ -551,7 +551,7 @@ footer .conteudo_footer{
     flex-direction: column;
 }
 
-.redes_sociais{
+.redesSociais{
     display: flex;
     flex-direction: column;
 }
@@ -584,7 +584,7 @@ footer h6{
 }
 
 /* Sobre */
-.sobre_nos {
+.sobreNos {
     width: 100%;
     height: 37.5rem; 
     display: flex;
@@ -617,7 +617,7 @@ footer h6{
     line-height: 1.6;
 }
 
-.sobre_nos figure img {
+.sobreNos figure img {
     width: 37.5rem; 
     height: 24.375rem; 
     border-radius: 0.9375rem; 
@@ -642,7 +642,7 @@ footer h6{
 }
 
 /* visão e valores */
-.visao_valores {
+.visaoValores {
     width: 100%;
     height: 37.5rem;
     display: flex;
@@ -653,7 +653,7 @@ footer h6{
     padding: 0.625rem 5.625rem;
 }
 
-.visao_valores figure img {
+.visaoValores figure img {
     width: 37.5rem;
     height: 24.375rem;
     border-radius: 0.9375rem;
@@ -666,7 +666,7 @@ footer h6{
     margin-bottom: 0.625rem; 
 }
 
-.visao_valores ul {
+.visaoValores ul {
     width: 90%;
     font-family: "Montserrat";
     font-size: 1.25rem;
@@ -676,7 +676,7 @@ footer h6{
 }
 
 /* fale conosco */
-.fale_conosco {
+.faleConosco {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -686,7 +686,7 @@ footer h6{
     margin-bottom: 7.5rem; 
 }
 
-.fale_titulo {
+.faleTitulo {
     font-family: "Montserrat";
     font-size: 2.25rem; 
     color: #F3DE9B;
@@ -695,12 +695,12 @@ footer h6{
     margin-bottom: 4.375rem; 
 }
 
-.fale_conosco article {
+.faleConosco article {
     display: flex;
     flex-direction: row;
 }
 
-.fale_conosco article figure img {
+.faleConosco article figure img {
     width: 59.375rem; 
     height: 37.5rem;
     border-radius: 0.9375rem;
@@ -782,69 +782,69 @@ footer h6{
     font-family: "Montserrat";
     color: #fff;
     font-weight: 700;
-    font-size: 50px;
-    margin-top: 80px;
-    margin-bottom: 120px;
+    font-size: 3.125rem;
+    margin-top: 5rem;
+    margin-bottom: 7.5rem;
 }
 
 /* Produto para entrega */
 
 .entrega{
     align-self: flex-start;
-    width: 1200px;
+    width: 75rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    padding: 10px 90px;
+    padding: 0.625rem 5.625rem;
     font-family: "Montserrat";
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .entrega h2{
-    font-size: 40px;
-    width: 700px;
+    font-size: 2.5rem;
+    width: 43.75rem;
 }
 
-.info_entrega{
-    margin-top: 20px;
+.infoEntrega{
+    margin-top: 1.25rem;
     display: flex;
     flex-direction: row;
     width: 100%;
     align-items: flex-start;
 }
 
-.info_entrega .imagem_produto{
-    width: 350px;
-    height: 350px;
+.infoEntrega .imagemProduto{
+    width: 21.875rem;
+    height: 21.875rem;
 }
 
-.info_entrega img{
+.infoEntrega img{
     width: 100%;
     height: 100%;
 }
 
-.info_entrega article{
-    margin-left: 20px;
+.infoEntrega article{
+    margin-left: 1.25rem;
     justify-content: center;
 }
 
-.info_entrega article h3{
-    font-size: 40px;
+.infoEntrega article h3{
+    font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
 }
 
-.fases_entrega{
-    width: 600px;
-    height: 150px;
-    margin-bottom: 35px;
+.fasesEntrega{
+    width: 37.5rem;
+    height: 9.375rem;
+    margin-bottom: 2.1875rem;
 }
 
-.info_entrega article p{
-    width: 600px;
-    font-size: 22px;
+.infoEntrega article p{
+    width: 37.5rem;
+    font-size: 1.375rem;
     font-weight: 400;
 }
 
@@ -854,25 +854,25 @@ footer h6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 90px;
+    padding: 0.625rem 5.625rem;
 }
 
 /* filtro */
 
 .filtro{
-    margin-top: 130px;
-    height: 550px;
+    margin-top: 8.125rem;
+    height: 34.375rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     font-family: "Montserrat";
     color: #FFF;
-    gap: 35px;
+    gap: 2.1875rem;
 }
 
 .filtro h3{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -880,40 +880,40 @@ footer h6{
     display: flex;
     flex-direction: column;
     font-weight: 300;
-    font-size: 20px;
-    gap: 15px;
+    font-size: 1.25rem;
+    gap: 0.9375rem;
 }
 
 .filtro h4{
     font-weight: 400;
-    font-size: 26px;
-    margin-bottom:5px;
+    font-size: 1.625rem;
+    margin-bottom: 0.3125rem;
 }
 
 .filtro article label{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .filtro article input[type="checkbox"] {
     appearance: none;
     background-color: transparent;
-    border: 1.5px solid #D4AF37;
-    width: 19px;
-    height: 19px;
+    border: 0.0938rem solid #D4AF37;
+    width: 1.1875rem;
+    height: 1.1875rem;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     position: relative; 
 }
 
 .filtro article input[type="checkbox"]::after {
     content: "✔";
     position: absolute;
-    top: -2px;
-    left: 2px;
-    font-size: 16px;
+    top: -0.125rem;
+    left: 0.125rem;
+    font-size: 1rem;
     color: #000;
     display: none;
 }
@@ -926,50 +926,50 @@ footer h6{
     display: block;
 }
 
-.filtro .faixa_preco input{
-    width: 100px;
+.filtro .faixaPreco input{
+    width: 6.25rem;
     background-color: rgba(255, 255, 255, 0.04);
-    border: 1.5px solid #D4AF37;
-    border-radius: 5px;
+    border: 0.0938rem solid #D4AF37;
+    border-radius: 0.3125rem;
     color: #FFF;
-    font-size: 18px;
-    padding: 5px 16px;
+    font-size: 1.125rem;
+    padding: 0.3125rem 1rem;
 }
 
-.filtro .faixa_preco span{
+.filtro .faixaPreco span{
     color: #D4AF37;
 }
 
 /* cards */
 
-.cards-busca{
+.cardsBusca{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
     width: 75%;
-    margin-top: 50px; 
+    margin-top: 3.125rem; 
     font-family: "Montserrat";
 }
 
-.cards-busca h2{
-    font-size: 32px; 
+.cardsBusca h2{
+    font-size: 2rem; 
     font-weight: bold;
     color: #FFF;
-    margin-bottom: 70px; 
+    margin-bottom: 4.375rem; 
 }
 
-.cards-busca span{
-    font-size: 32px; 
+.cardsBusca span{
+    font-size: 2rem; 
     font-weight: bold;
     color: #D4AF37;
-    margin-bottom: 60px; 
+    margin-bottom: 3.75rem; 
 }
 
-.cards-busca div{
+.cardsBusca div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 70px;
+    gap: 4.375rem;
 }
 
 /* Carrinho de compras */
@@ -977,20 +977,20 @@ footer h6{
 .carrinho{
     display: flex;
     flex-direction: column;
-    padding: 10px 90px;
+    padding: 0.625rem 5.625rem;
     font-family: "Montserrat";
 }
 
 .carrinho h1{
     align-self: center;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     color: #FFF;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 3.75rem;
+    margin-bottom: 5rem;
 }
 
-.carrinho .conteudo-carrinho{
+.carrinho .conteudoCarrinho{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -998,81 +998,81 @@ footer h6{
 
 /* produtos */
 
-.produtos-carrinho{
+.produtosCarrinho{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
-.card-carrinho{
-    width: 750px;
+.cardCarrinho{
+    width: 46.875rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 3px solid #D4AF37;
+    border: 0.1875rem solid #D4AF37;
     background: none;
-    border-radius: 10px;
-    padding: 5px 20px;
-    gap: 60px;
+    border-radius: 0.625rem;
+    padding: 0.3125rem 1.25rem;
+    gap: 3.75rem;
 }
 
-.card-carrinho figure{
-    width: 230px;
+.cardCarrinho figure{
+    width: 14.375rem;
     height: 90%;
 }
 
-.card-carrinho img{
-    width: 230px;
+.cardCarrinho img{
+    width: 14.375rem;
     height: 100%;
 }
 
-.info-produto-carrinho h3{
-    width: 360px;
-    font-size: 24px;
+.infoProdutoCarrinho h3{
+    width: 22.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #FFF;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
-.info-produto-carrinho p{
-    width: 360px;
-    font-size: 18px;
+.infoProdutoCarrinho p{
+    width: 22.5rem;
+    font-size: 1.125rem;
     font-weight: 100;
     color: #FFF;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
-.info-produto-carrinho article{
+.infoProdutoCarrinho article{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 170px;
+    gap: 10.625rem;
 }
 
 
-.info-produto-carrinho article h4{
-    font-size: 24px;
+.infoProdutoCarrinho article h4{
+    font-size: 1.5rem;
     font-weight: bold;
     color: #D4AF37;
 }
 
-.info-produto-carrinho article button{
+.infoProdutoCarrinho article button{
     background-color: rgba(255, 255, 255, 0.04);
-    border: 2px solid #D4AF37;
-    width: 40px;
-    height: 30px;
-    border-radius: 3px;
+    border: 0.125rem solid #D4AF37;
+    width: 2.5rem;
+    height: 1.875rem;
+    border-radius: 0.1875rem;
     cursor: pointer;
 }
 
-.info-produto-carrinho article button img{
-    margin-top: 1px;
-    width: 20px;
-    height: 20px;
+.infoProdutoCarrinho article button img{
+    margin-top: 0.0625rem;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
-.info-produto-carrinho article button:hover{
+.infoProdutoCarrinho article button:hover{
     transform: scale(1.1);
 }
 
@@ -1082,12 +1082,12 @@ footer h6{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    gap: 20px;
+    width: 25rem;
+    gap: 1.25rem;
 }
 
 .total h2{
-    font-size: 55px;
+    font-size: 3.4375rem;
     color: #FFF;
     font-weight: 700;
 }
@@ -1095,13 +1095,13 @@ footer h6{
 .total a{
     font-family: "Montserrat";
     text-decoration: none;
-    width: 340px;
-    height: 65px;
+    width: 21.25rem;
+    height: 4.0625rem;
     background-color: #D4AF37;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: #000;
-    font-size: 26px;
-    padding: 15px 55px;
+    font-size: 1.625rem;
+    padding: 0.9375rem 3.4375rem;
     font-weight: 700;
 }
 
@@ -1112,51 +1112,52 @@ footer h6{
 
 /* Tela de perfil */
 
-.info-perfil{
+.infoPerfil{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
-    padding: 50px 90px;
+    gap: 0.9375rem;
+    padding: 3.125rem 5.625rem;
 }
 
-.info-perfil h1{
+.infoPerfil h1{
     font-family: "Montserrat";
     color: #FFF;
     font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 40px;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
-.info-perfil div{
+.infoPerfil div{
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    gap: 100px;
+    gap: 6.25rem;
 }
 
-.foto-perfil{
+.fotoPerfil{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.foto-perfil figure{
-    width: 300px;
-    height: 300px;
+.fotoPerfil figure{
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-bottom: 1rem;
 }
 
-.foto-perfil img{
+.fotoPerfil img{
     width: 100%;
     height: 100%;
 }
 
-.foto-perfil a{
-    width: 110px;
-    height: 25px;
+.fotoPerfil a{
+    width: 6.875rem;
+    height: 1.5625rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1165,168 +1166,168 @@ footer h6{
     font-weight: 500;
     color: #FFF;
     font-family: "Montserrat";
-    gap: 5px;
+    gap: 0.3125rem;
     background-color: #C71E1E;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 0.3125rem;
+    font-size: 1.125rem;
 }
 
-.foto-perfil a img{
-    width: 20px;
-    height: 20px;
+.fotoPerfil a img{
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
-.foto-perfil a:hover{
+.fotoPerfil a:hover{
     transform: scale(1.1);
     background-color: #e92c2c;
 }
 
-.dados-pessoa{
+.dadosPessoa{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
-.dados-pessoa label{
+.dadosPessoa label{
     font-family: "Montserrat";
     color: #D4AF37;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.dados-pessoa input{
-    width: 550px;
-    height: 35px;
-    border: 1px solid #D4AF37;
+.dadosPessoa input{
+    width: 34.375rem;
+    height: 2.1875rem;
+    border: 0.0625rem solid #D4AF37;
     background-color: #262626;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.dados-endereco{
-    width: 550px;
+.dadosEndereco{
+    width: 34.375rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
-.dados-endereco label{
+.dadosEndereco label{
     font-family: "Montserrat";
     color: #D4AF37;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.dados-endereco input{
-    height: 35px;
-    border: 1px solid #D4AF37;
+.dadosEndereco input{
+    height: 2.1875rem;
+    border: 0.0625rem solid #D4AF37;
     background-color: #262626;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.dados-endereco input, #bairro{
-    width: 550px;
+.dadosEndereco input, #bairro-perfil{
+    width: 34.375rem;
 }
 
-.dados-endereco input, #n, #cep{
-    width: 190px;
+.dadosEndereco input, #n-perfil, #cep-perfil{
+    width: 11.875rem;
 }
 
-.dados-endereco input, #cidade, #rua{
-    width: 355px;
+.dadosEndereco input, #cidade-perfil #rua-perfil{
+    width: 22.1875rem;
 }
 
 
-.dados-endereco div{
+.dadosEndereco div{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
-.dados-endereco div article{
+.dadosEndereco div article{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
-.info-perfil button{
+.infoPerfil button{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 210px;
-    height: 32px;
+    width: 13.125rem;
+    height: 2rem;
     position: absolute;
     bottom: 45%;
     right: 7%;
     background-color: #D4AF37;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     cursor: pointer;
     border: none;
     color: #000;
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
-.info-perfil button img{
-    width: 20px;
-    height: 20px;
+.infoPerfil button img{
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
-.info-perfil button:hover{
+.infoPerfil button:hover{
     transform: scale(1.1);
     background-color: #F3DE9B;
 }
 
 /* Suas compras */
 
-.suas-compras{
+.suasCompras{
     display: flex;
     flex-direction: column;
-    padding: 40px 90px;
+    padding: 2.5rem 5.625rem;
     font-family: "Montserrat";
 }
 
-.suas-compras h2{
-    margin-top: 50px;
-    margin-bottom: 40px;
-    font-size: 36px;
+.suasCompras h2{
+    margin-top: 3.125rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.25rem;
     color: #F3DE9B;
     font-weight: bold;
 }
 
-.suas-compras .card-carrinho{
-    width: 750px;
-    height: 300px;
+.suasCompras .cardCarrinho{
+    width: 46.875rem;
+    height: 18.75rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 3px solid #D4AF37;
+    border: 0.1875rem solid #D4AF37;
     background: none;
-    border-radius: 10px;
-    padding: 5px 20px;
-    gap: 60px;
-    margin-bottom: 60px;
+    border-radius: 0.625rem;
+    padding: 0.3125rem 1.25rem;
+    gap: 3.75rem;
+    margin-bottom: 3.75rem;
 }
 
-.suas-compras .card-carrinho figure{
-    width: 230px;
+.suasCompras .cardCarrinho figure{
+    width: 14.375rem;
     height: 90%;
 }
 
-.suas-compras .card-carrinho img{
-    width: 230px;
+.suasCompras .cardCarrinho img{
+    width: 14.375rem;
     height: 100%;
 }
 
-.suas-compras .info-produto-carrinho {
+.suasCompras .infoProdutoCarrinho {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1334,49 +1335,49 @@ footer h6{
 }
 
 
-.suas-compras .info-produto-carrinho h3{
-    width: 450px;
-    font-size: 28px;
+.suasCompras .infoProdutoCarrinho h3{
+    width: 28.125rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: #FFF;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
-.suas-compras .info-produto-carrinho p{
-    width: 360px;
-    font-size: 18px;
+.suasCompras .infoProdutoCarrinho p{
+    width: 22.5rem;
+    font-size: 1.125rem;
     font-weight: 100;
     color: #FFF;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
-.suas-compras .info-produto-carrinho h4{
-    font-size: 26px;
+.suasCompras .infoProdutoCarrinho h4{
+    font-size: 1.625rem;
     font-weight: 600;
     color: #D4AF37;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
-.suas-compras .info-produto-carrinho h5{
-    font-size: 20px;
+.suasCompras .infoProdutoCarrinho h5{
+    font-size: 1.25rem;
     font-weight: 400;
     color: #FFF;
 }
 
-.acompanhar-pedido{
-    width: 240px;
-    height: 35px;
-    border-radius: 5px;
+.acompanharPedido{
+    width: 15rem;
+    height: 2.1875rem;
+    border-radius: 0.3125rem;
     background-color: #D4AF37;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     color: #000;
-    margin-top: 40px;
-    padding: 8px 33px;
+    margin-top: 2.5rem;
+    padding: 0.5rem 2.0625rem;
 }
 
-.acompanhar-pedido:hover{
+.acompanharPedido:hover{
     transform: scale(1.05);
     background-color: #F3DE9B;
 }
@@ -1392,34 +1393,34 @@ footer h6{
 }
 
 .finalizacao h1{
-    margin-top: 60px;
-    margin-bottom: 80px;
-    font-size: 42px;
+    margin-top: 3.75rem;
+    margin-bottom: 5rem;
+    font-size: 2.625rem;
     font-weight: 700;
     color: #FFF;
 }
 
 .endereco{
-    padding: 10px 90px;
+    padding: 0.625rem 5.625rem;
     display: flex;
     align-self: flex-start;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .endereco h2{
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-bottom: 0.625rem;
+    font-size: 2.25rem;
     color: #F3DE9B;
     font-weight: bold;
 }
 
 .endereco article{
-    width: 970px;
+    width: 60.625rem;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .endereco article div{
@@ -1428,154 +1429,154 @@ footer h6{
 }
 
 .endereco article div label{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     color: #D4AF37;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 
 .endereco article div input{
-    height: 30px;
-    border: 1px solid #D4AF37;
+    height: 1.875rem;
+    border: 0.0625rem solid #D4AF37;
     background-color: #262626;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .endereco article div input, #n, #cep{
-    width: 160px;
+    width: 10rem;
 }
 
 .endereco article div input, #cidade, #rua{
-    width: 315px;
+    width: 19.6875rem;
 }
 
 .endereco article div input, #complemento, #bairro{
-    width: 430px;
+    width: 26.875rem;
 }
 
 /* método de pagamento */
 
-.metodo-pagamento{
+.metodoPagamento{
     align-self: flex-start;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 80px;
-    padding: 10px 90px;
+    margin-top: 5rem;
+    padding: 0.625rem 5.625rem;
 }
 
-.metodo-pagamento h2{
-    margin-bottom: 10px;
-    font-size: 36px;
+.metodoPagamento h2{
+    margin-bottom: 0.625rem;
+    font-size: 2.25rem;
     color: #F3DE9B;
     font-weight: bold;
 }
 
-.metodo-pagamento article{
-    height: 100px;
-    width: 970px;
+.metodoPagamento article{
+    height: 6.25rem;
+    width: 60.625rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     background-color: #2d2d2d;
 }
 
-.metodo-pagamento article div{
+.metodoPagamento article div{
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
-.metodo-pagamento article div .cartao{
-    width: 30px;
-    height: 30px;
+.metodoPagamento article div .cartao{
+    width: 1.875rem;
+    height: 1.875rem;
 }
 
-.metodo-pagamento article div img{
-    width: 40px;
-    height: 30px;
+.metodoPagamento article div img{
+    width: 2.5rem;
+    height: 1.875rem;
 }
 
-.metodo-pagamento article div label{
-    font-size: 16px;
+.metodoPagamento article div label{
+    font-size: 1rem;
     font-weight: 600;
     color: #FFF;
 }
 
-.metodo-pagamento article div input{
+.metodoPagamento article div input{
     appearance: none;
     background-color: transparent;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     cursor: pointer;
-    border: 1.5px solid #D4AF37;
-    border-radius: 10px;
+    border: 0.0938rem solid #D4AF37;
+    border-radius: 0.625rem;
     position: relative;
 }
 
-.metodo-pagamento article div input:checked {
+.metodoPagamento article div input:checked {
     background-color: #D4AF37;
 }
 
-.metodo-pagamento article div input:checked:after {
+.metodoPagamento article div input:checked:after {
     content: "✔";
     position: absolute;
-    top: -1px;
-    left: 3px;
-    font-size: 14px;
+    top: -0.0625rem;
+    left: 0.1875rem;
+    font-size: 0.875rem;
     color: #000;
     display: block;
 }
 
 /* botoes */
 
-.botoes-finalizar{
+.botoesFinalizar{
     display: flex;
     flex-direction: row;
     align-self: flex-start;
     align-items: center;
-    padding: 10px 90px;
-    margin-top: 100px;
-    gap: 50px;
+    padding: 0.625rem 5.625rem;
+    margin-top: 6.25rem;
+    gap: 3.125rem;
     font-family: "Montserrat";
     font-weight: 700;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
-.botoes-finalizar .cancelar{
+.botoesFinalizar .cancelar{
     text-decoration: none;
-    width: 275px;
-    height: 57px;
+    width: 17.1875rem;
+    height: 3.5625rem;
     color: #D4AF37;
     background: none;
-    border-radius: 6px;
-    border: 3px solid #D4AF37;
-    padding: 10px 75px;
+    border-radius: 0.375rem;
+    border: 0.1875rem solid #D4AF37;
+    padding: 0.625rem 4.6875rem;
 }
 
-.botoes-finalizar .finalizar{
+.botoesFinalizar .finalizar{
     text-decoration: none;
-    width: 275px;
-    height: 57px;
+    width: 17.1875rem;
+    height: 3.5625rem;
     color: #000;
     background: #D4AF37;
-    border-radius: 6px;
-    padding: 12px 80px;
+    border-radius: 0.375rem;
+    padding: 0.75rem 5rem;
 }
 
-.botoes-finalizar a:hover{
+.botoesFinalizar a:hover{
     transform: scale(1.05);
 
 }
 
 .resumo{
-    width: 320px;
-    height: 300px;
+    width: 20rem;
+    height: 18.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1587,14 +1588,14 @@ footer h6{
     bottom: 45%;
     background-color: #2d2d2d;
     right: 5%;
-    border-radius: 10px;
-    gap: 10px;
+    border-radius: 0.625rem;
+    gap: 0.625rem;
 }
 
 .resumo h3{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .resumo article{
@@ -1603,31 +1604,31 @@ footer h6{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 15px;
+    padding: 0.3125rem 0.9375rem;
 }
 
 .resumo p{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 300;
 }
 
 .resumo hr{
     width: 90%;
-    height: 2px;
+    height: 0.125rem;
     background-color: #D4AF37;
     border: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
 }
 
 /* produto específico */
 
-.produto-especifico{
+.produtoEspecifico{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 150px 140px;
+    padding: 9.375rem 8.75rem;
 }
 
 .produto{
@@ -1635,7 +1636,7 @@ footer h6{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 /* fotos laterais */
@@ -1644,17 +1645,17 @@ footer h6{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .fotos figure{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     background-color: rgba(255, 255, 255, 0.04);
-    border: 2px solid #D4AF37;
+    border: 0.125rem solid #D4AF37;
     cursor: pointer;
 }
 
@@ -1671,80 +1672,80 @@ footer h6{
 
 /* foto central */
 
-.imagem-ativa{
+.imagemAtiva{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 750px;
-    height: 750px;
+    width: 46.875rem;
+    height: 46.875rem;
 }
 
-.imagem-ativa img{
+.imagemAtiva img{
     width: 90%;
     height: 90%;
 }
 
-.favorito-produto{
-    width: 55px;
-    height: 55px;
+.favoritoProduto{
+    width: 3.4375rem;
+    height: 3.4375rem;
     position: absolute;
     top: 23%;
     right: 38%;
     cursor: pointer;
 }
 
-.favorito-produto img{
+.favoritoProduto img{
     width: 100%;
     height: 100%;
 }
 
 /* informações produto */
-.info-produto{
+.infoProduto{
     align-self: flex-start;
-    width: 480px;
+    width: 30rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 1.875rem;
     font-family: "Montserrat";
 }
 
-.info-produto h1{
+.infoProduto h1{
     width: 100%;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
     color: #FFF;
 }
 
-.info-produto p{
+.infoProduto p{
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 100;
     color: #FFF;
 }
 
-.info-produto h2{
-    font-size: 36px;
+.infoProduto h2{
+    font-size: 2.25rem;
     font-weight: 700;
     color: #D4AF37;
 }
 
-.info-produto a{
+.infoProduto a{
     width: 100%;
-    height: 55px;
+    height: 3.4375rem;
     background-color: #D4AF37;
     border: none;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     color: #000;
     font-weight: 600;
-    font-size: 32px;
-    padding: 8px 165px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    font-size: 2rem;
+    padding: 0.5rem 10.3125rem;
+    margin-top: 1.25rem;
+    margin-bottom: 3.125rem;
 }
 
-.info-produto a:hover{
+.infoProduto a:hover{
     transform: scale(1.05);
     background-color: #F3DE9B;
 }
@@ -1755,15 +1756,15 @@ footer h6{
     align-items: flex-start;
     width: 100%;
     background-color: #2d2d2d;
-    border-radius: 15px;
-    padding: 30px;
+    border-radius: 0.9375rem;
+    padding: 1.875rem;
 }
 
 .historia h3{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
     color: #FFF;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .historia p{
@@ -1778,13 +1779,13 @@ footer h6{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    margin-top: 160px;
+    margin-top: 10rem;
     font-family: "Montserrat";
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .comentarios h4{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     color: #FFF;
 }
@@ -1793,30 +1794,30 @@ footer h6{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 1200px;
-    border: 3px solid #D4AF37;
+    width: 75rem;
+    border: 0.1875rem solid #D4AF37;
     background: none;
-    border-radius: 15px;
-    padding: 20px 20px;
-    gap: 20px;
+    border-radius: 0.9375rem;
+    padding: 1.25rem 1.25rem;
+    gap: 1.25rem;
 }
 
 .comentarios article div{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .comentarios p{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FFF;
     font-weight: 200;
 }
 
 .comentarios figure{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .comentarios img{
@@ -1825,14 +1826,14 @@ footer h6{
 }
 
 .comentarios h5{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #D4AF37;
 }
 
 /* login */
 
-.main-login{
+.mainLogin{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1845,17 +1846,17 @@ footer h6{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
-    width: 600px;
+    margin-top: 6.25rem;
+    width: 37.5rem;
     background-color: #2d2d2d;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
 }
 
 .login figure{
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
 }
 
 .login img{
@@ -1864,7 +1865,7 @@ footer h6{
 }
 
 .login h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
     color: #FFF;
 }
@@ -1874,43 +1875,43 @@ footer h6{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .login form label{
     width: 90%;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #D4AF37;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .login form input{
     box-sizing: border-box;
     width: 90%;
-    height: 35px;
-    border: 1px solid #D4AF37;
+    height: 2.1875rem;
+    border: 0.0625rem solid #D4AF37;
     background-color: #262626;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .login #senha, #confirmar-senha{
     background-image: url(./assets/images/senha.png);
     background-repeat: no-repeat;
-    background-size: 22px 22px; 
-    background-position: 500px center; 
+    background-size: 1.375rem 1.375rem; 
+    background-position: 31.25rem center; 
 }
 
 .login form p{
     align-self: flex-start;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     color: #D4AF37;
     font-weight: 300;
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .login form p:hover{
@@ -1919,15 +1920,15 @@ footer h6{
 
 .login form button{
     width: 60%;
-    height: 45px;
+    height: 2.8125rem;
     background-color: #D4AF37;
     color: #000;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     cursor: pointer;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
 }
 
 .login form button:hover{
@@ -1935,16 +1936,16 @@ footer h6{
     transform: scale(1.05);
 }
 
-.botao-cadastro{
-    margin-top: 35px;
+.botaoCadastro{
+    margin-top: 2.1875rem;
 }
 
 .login a{
     text-decoration: none;
     color: #D4AF37;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .login a:hover{
@@ -1962,7 +1963,7 @@ footer h6{
     width: 45%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .login form article div input{
@@ -1983,7 +1984,7 @@ footer h6{
     background-color: rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(0.625rem);
     font-family: "Montserrat";
-    padding: 5px 40px;
+    padding: 0.3125rem 2.5rem;
 }
 
 .navAdm .logo{
@@ -2006,7 +2007,7 @@ footer h6{
 }
 
 .navAdm article a{
-    width: 20px;
+    width: 1.25rem;
     font-weight: 500;
     color: #D4AF37;
     text-decoration: none;
@@ -2019,6 +2020,34 @@ footer h6{
     transition: all 0.3s ease;
 }
 /* Dashboard */
+.mainDashboard{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 6.25rem 5.625rem;
+    font-family: "Montserrat";
+    color: #D4AF37;
+    gap: 5rem;
+}
+
+.mainDashboard h1{
+    font-size: 2.5rem;
+}
+
+.mainDashboard section h2{
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.mainDashboard figure{
+    width: 50rem;
+    height: 25rem;
+}
+
+.mainDashboard img{
+    width: 100%;
+    height: 100%;
+}
 
 /* Estoque */
 
@@ -2027,26 +2056,26 @@ footer h6{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 90px;
+    padding: 5rem 5.625rem;
     font-family: "Montserrat";
 }
 
 .estoque h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #D4AF37;
 }
 
 .estoque .botaoAdicionar{
-    width: 250px;
-    height: 35px;
+    width: 15.625rem;
+    height: 2.1875rem;
     background-color: #D4AF37;
     color: #000;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     text-decoration: none;
-    border-radius: 5px;
-    padding: 6px 12px;
+    border-radius: 0.3125rem;
+    padding: 0.375rem 0.75rem;
     cursor: pointer;
 }
 
@@ -2058,12 +2087,12 @@ footer h6{
 /* produtos */
 
 .itensEstoque{
-    width: 1250px;
+    width: 78.125rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px 90px;
-    gap: 65px;
+    padding: 0 5.625rem;
+    gap: 4.0625rem;
 }
 
 .itemEstoque{
@@ -2072,17 +2101,17 @@ footer h6{
     flex-direction: row;
     align-items: flex-start;
     align-content: center;
-    border: 3px solid #D4AF37;
+    border: 0.1875rem solid #D4AF37;
     background-color: none;
-    border-radius: 10px;
-    padding: 15px 10px;
+    border-radius: 0.625rem;
+    padding: 0.9375rem 0.625rem;
     font-family: "Montserrat";
-    gap: 25px;
+    gap: 1.5625rem;
 }
 
 .itemEstoque figure{
-    width: 145px;
-    height: 145px;
+    width: 9.0625rem;
+    height: 9.0625rem;
 }
 
 .itemEstoque figure img{
@@ -2096,28 +2125,28 @@ footer h6{
     align-content: center;
     align-items: flex-start;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
 
 }
 
 .itemEstoque .infoEstoque h2{
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 700;
-    width: 700px;
+    width: 43.75rem;
     color: #FFF;
 }
 
 .itemEstoque .infoEstoque p{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 100;
-    width: 200px;
+    width: 12.5rem;
     color: #FFF;
 }
 
 .itemEstoque .infoEstoque h3{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    width: 300px;
+    width: 18.75rem;
     color: #D4AF37;
 }
 
@@ -2128,26 +2157,26 @@ footer h6{
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .itemEstoque .botaoEditar{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 120px;
-    height: 30px;
+    width: 7.5rem;
+    height: 1.875rem;
     background-color: #D4AF37;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     color: #000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .itemEstoque .botaoEditar img{
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
 }
 
 .itemEstoque .botaoEditar:hover{
@@ -2159,19 +2188,19 @@ footer h6{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 120px;
-    height: 30px;
+    width: 7.5rem;
+    height: 1.875rem;
     background-color: #C71E1E;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     color: #FFF;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .itemEstoque .botaoDeletar img{
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
 }
 
 .itemEstoque .botaoDeletar:hover{
@@ -2189,17 +2218,17 @@ footer h6{
     bottom: 0;
     left: 20%;
     align-self: center;
-    width: 1100px;
+    width: 68.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     align-content: center;
-    border: 3px solid #D4AF37;
+    border: 0.1875rem solid #D4AF37;
     background: linear-gradient(180deg,rgba(11, 11, 12, 1) 0%, rgba(23, 23, 25, 1) 60%);
-    padding: 35px 90px;
+    padding: 2.1875rem 5.625rem;
     font-family: "Montserrat";
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .modalCadastro:target{
@@ -2209,8 +2238,8 @@ footer h6{
 
 .modalCadastro h1{
     text-align: center;
-    width: 500px;
-    font-size: 35px;
+    width: 31.25rem;
+    font-size: 2.1875rem;
     font-weight: 700;
     color: #D4AF37;
 }
@@ -2221,7 +2250,7 @@ footer h6{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .modalCadastro form article{
@@ -2236,48 +2265,48 @@ footer h6{
     flex-direction: column;
     align-self: flex-start;
     justify-content: space-between;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .modalCadastro label{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #D4AF37;
     font-weight: 500;
 }
 
 .modalCadastro input{
-    width: 400px;
-    padding: 2px 5px;
+    width: 25rem;
+    padding: 0.125rem 0.3125rem;
     background-color: #262626;
-    border: 1px solid #D4AF37;
-    font-size: 18px;
+    border: 0.0625rem solid #D4AF37;
+    font-size: 1.125rem;
     color: #FFF;
-    border-radius: 3px;
-    margin-bottom: 30px;
+    border-radius: 0.1875rem;
+    margin-bottom: 1.875rem;
 }
 
 .modalCadastro textarea{
-    width: 400px;
-    height: 160px;
-    padding: 2px 5px;
+    width: 25rem;
+    height: 10rem;
+    padding: 0.125rem 0.3125rem;
     background-color: #262626;
-    border: 1px solid #D4AF37;
-    font-size: 18px;
+    border: 0.0625rem solid #D4AF37;
+    font-size: 1.125rem;
     color: #FFF;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     font-family: "Montserrat";
     resize: none;
 }
 
 .modalCadastro input[type="file"] {
-    width: 400px;
+    width: 25rem;
     background-color: #262626;
-    border: 1px solid #D4AF37;
+    border: 0.0625rem solid #D4AF37;
     color: #fff;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
     font-family: "Montserrat";
-    font-size: 14px;
+    font-size: 0.875rem;
     cursor: pointer;
 }
 
@@ -2285,8 +2314,8 @@ footer h6{
     background-color: #D4AF37;
     color: #000;
     border: none;
-    padding: 8px 16px;
-    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
     font-weight: bold;
     font-family: "Montserrat";
     cursor: pointer;
@@ -2305,18 +2334,18 @@ footer h6{
 }
 
 .modalCadastro .botaoModal a{
-    margin-top: 36px;
+    margin-top: 2.25rem;
     align-self: center;
-    width: 300px;
-    height: 50px;
-    border: 3px solid #D4AF37;
+    width: 18.75rem;
+    height: 3.125rem;
+    border: 0.1875rem solid #D4AF37;
     background: none;
     color: #D4AF37;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 700;
     text-decoration: none;
-    border-radius: 5px;
-    padding: 6px 85px ;
+    border-radius: 0.3125rem;
+    padding: 0.375rem 5.3125rem ;
     cursor: pointer;
 }
 
@@ -2326,15 +2355,15 @@ footer h6{
 
 .modalCadastro .botaoModal button{
     align-self: center;
-    width: 300px;
-    height: 50px;
+    width: 18.75rem;
+    height: 3.125rem;
     border: none;
     background: #D4AF37;
     color: #000;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 700;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     cursor: pointer;
 }
 
@@ -2343,35 +2372,32 @@ footer h6{
     background-color: #F3DE9B;
 }
 
-
-
-
 /* Administradores */
 
 .administradores{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 80px 90px;
+    padding: 5rem 5.625rem;
     font-family: "Montserrat";
 }
 
 .administradores h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #D4AF37;
 }
 
 .administradores .botaoAdicionar{
-    width: 260px;
-    height: 35px;
+    width: 16.25rem;
+    height: 2.1875rem;
     background-color: #D4AF37;
     color: #000;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     text-decoration: none;
-    border-radius: 5px;
-    padding: 6px 12px;
+    border-radius: 0.3125rem;
+    padding: 0.375rem 0.75rem;
     cursor: pointer;
 }
 
@@ -2383,12 +2409,12 @@ footer h6{
 /* lista de administradores */
 
 .listaAdministradores{
-    width: 1250px;
+    width: 78.125rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px 90px;
-    gap: 65px;
+    padding: 0rem 5.625rem;
+    gap: 4.0625rem;
 }
 
 .administrador{
@@ -2397,17 +2423,17 @@ footer h6{
     flex-direction: row;
     align-items: flex-start;
     align-content: center;
-    border: 3px solid #D4AF37;
+    border: 0.1875rem solid #D4AF37;
     background-color: none;
-    border-radius: 10px;
-    padding: 15px 10px;
+    border-radius: 0.625rem;
+    padding: 0.9375rem 0.625rem;
     font-family: "Montserrat";
-    gap: 35px;
+    gap: 2.1875rem;
 }
 
 .administrador figure{
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
 }
 
 .administrador figure img{
@@ -2422,21 +2448,21 @@ footer h6{
     align-content: center;
     align-items: flex-start;
     justify-content: center;
-    gap: 35px;
+    gap: 2.1875rem;
 
 }
 
 .administrador .infoAdm h2{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 700;
-    width: 700px;
+    width: 43.75rem;
     color: #FFF;
 }
 
 .administrador .infoAdm p{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 100;
-    width: 200px;
+    width: 12.5rem;
     color: #FFF;
 }
 
@@ -2447,26 +2473,26 @@ footer h6{
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .administrador .botaoEditar{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 120px;
-    height: 30px;
+    width: 7.5rem;
+    height: 1.875rem;
     background-color: #D4AF37;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     color: #000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .administrador .botaoEditar img{
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
 }
 
 .administrador  .botaoEditar:hover{
@@ -2478,19 +2504,19 @@ footer h6{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 120px;
-    height: 30px;
+    width: 7.5rem;
+    height: 1.875rem;
     background-color: #C71E1E;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     color: #FFF;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .administrador  .botaoDeletar img{
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
 }
 
 .administrador  .botaoDeletar:hover{
