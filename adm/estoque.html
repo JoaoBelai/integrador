@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+     <link rel="icon" type="image/png" href="../assets/images/logo_escudo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navAdm">
+            <a href="./dashboard.html">  
+                <figure class="logo">
+                    <img src="../assets/images/logo_nav.png" alt="logo legacy locker"/>
+                </figure>
+            </a>
+
+            
+            <article>
+                <a href="./dashboard.html">Dashboard</a>
+                <a href="./estoque.html">Estoque</a>
+                <a href="./administradores.html">Administradores</a>
+            </article>
+        </nav>
+    </header>
+
+    <main>
+        <section class="estoque">
+            <h1>Estoque:</h1>
+
+            <a class="botaoAdicionar" href="#modalCadastro">Cadastrar novo produto</a>
+        </section>
+
+        <article class="itensEstoque">
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/camisa-messi.png" alt="Camiseta Messi 2017">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Icônica Camiseta Messi 2017</h2>
+                    <p>Em estoque</p>
+                    <h3>R$7.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/camisa_kobe.png" alt="Regata Kobe 2002 Assinada">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Regata Kobe 2002 Assinada</h2>
+                    <p>Em estoque</p>
+                    <h3>R$6.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/camisa_2002.png" alt="Camiseta Copa de 2002 Assinada">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Camiseta Copa de 2002 Assinada pelo time</h2>
+                    <p>Em estoque</p>
+                    <h3>R$11.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/camisa_lebron.png" alt="Jersey Lebron James Rookie Year Assinada">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Jersey Lebron James Rookie Year Assinada</h2>
+                    <p>Em estoque</p>
+                    <h3>R$8.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/bola_babe.png" alt="Bola de Beisebol do Babe Ruth">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Bola de Beisebol do Babe Ruth</h2>
+                    <p>Em estoque</p>
+                    <h3>R$4.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/bola_rio.png" alt="Bola Final das Olimpíadas 2016 Vôlei Masculino">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Bola Final das Olimpíadas 2016 Masculino</h2>
+                    <p>Em estoque</p>
+                    <h3>R$5.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/bola_champions.png" alt="Bola Final da Champions de 2015 Assinada">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Bola Final da Champions de 2015 Assinada</h2>
+                    <p>Em estoque</p>
+                    <h3>R$9.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/bola_superbowl.png" alt="Bola SuperBowl LVII Assinada pelo Mahomes">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Bola SuperBowl LVII Assinada pelo Mahomes</h2>
+                    <p>Em estoque</p>
+                    <h3>R$11.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/tenis-jordan.png" alt="Tênis do Flu Game do Jordan">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Tênis do Flu Game do Jordan</h2>
+                    <p>Em estoque</p>
+                    <h3>R$15.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/patins.png" alt="Patins Wayne Gretzky Stanley Cup 1996">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Patins Wayne Gretzky Stanley Cup 1996</h2>
+                    <p>Em estoque</p>
+                    <h3>R$6.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/chuteira_rivellino.png" alt="Chuteira do Rivellino copa de 1970">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Chuteira do Rivellino copa de 1970</h2>
+                    <p>Em estoque</p>
+                    <h3>R$10.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/tenis_kobe.png" alt="Tênis Kobe Bryant Finais de 2009">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Tênis Kobe Bryant Finais de 2009</h2>
+                    <p>Em estoque</p>
+                    <h3>R$7.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/capacete_tom.png" alt="Capacete Tom Brady Salute to Save">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Capacete Tom Brady Salute to Save</h2>
+                    <p>Em estoque</p>
+                    <h3>R$9.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/luva_mike.png" alt="Luva do Mike Tyson assinada">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Luva do Mike Tyson assinada</h2>
+                    <p>Em estoque</p>
+                    <h3>R$12.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/serena.png" alt="Raquete Serena Williams Grand Slam">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Raquete Serena Williams Grand Slam</h2>
+                    <p>Em estoque</p>
+                    <h3>R$6.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/capacete_senna.png" alt="Capacete do Senna GP de Mônaco">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Capacete do Senna GP de Mônaco</h2>
+                    <p>Em estoque</p>
+                    <h3>R$8.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/muhammad.png" alt="Quadro Assinado pelo Muhammad Ali">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Quadro Assinado pelo Muhammad Ali</h2>
+                    <p>Em estoque</p>
+                    <h3>R$6.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/warriors.png" alt="Quadro do Lendário Warriors 73-9 Assinado">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Quadro do Lendário Warriors 73-9 Assinado</h2>
+                    <p>Em estoque</p>
+                    <h3>R$3.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/zico.png" alt="Quadro Zico Seleção Assinado">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Quadro Zico Seleção Assinado</h2>
+                    <p>Em estoque</p>
+                    <h3>R$6.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+            <section class="itemEstoque">
+                <figure>
+                    <img src="../assets/images/quadro_wayne.png" alt="Quadro assinado pelo Wayne Gretzky">
+                </figure>
+
+                <article class="infoEstoque">
+                    <h2>Quadro assinado pelo Wayne Gretzky</h2>
+                    <p>Em estoque</p>
+                    <h3>R$5.999,00</h3>
+                </article>
+
+                <div>
+                    <a class="botaoEditar" href="#edicaoProduto"><img src="../assets/images/lapis.png" alt="Icone lápis"> Editar</a>
+                    <a class="botaoDeletar" href="#deletarProduto"><img src="../assets/images/lixeira-branco.png" alt="Icone lixeira"> Deletar</a>
+                </div>
+            </section>
+
+        </article>
+
+    </main>
+
+    <section id="modalCadastro" class="modalCadastro">
+        <h1>Cadastro de produtos</h1>
+        <form action="estoque.html" method="GET">
+            <article>
+                    <div>
+                        <label for="produto-nome">Nome:</label>
+                        <input type="text" id="produto-nome" placeholder="Nome do produto" required/>
+                    </div>
+                    <div>
+                        <label for="subtitulo">Subtítulo:</label>
+                        <input type="text" id="subtitulo" placeholder="Um subtitulo para o produto" required/> 
+                    </div>
+            </article>
+            <article>
+                    <div>
+                        <label for="preco">Preço:</label>
+                        <input type="text" id="preco" placeholder="Preço do produto" required/>
+                        <label for="foto">Fotos:</label>
+                        <input type="file" id="foto" accept="image/*" required/>
+                    </div>
+                    <div>
+                        <label for="historia">História:</label>
+                        <textarea id="historia" placeholder="História do produto" required></textarea>
+                    </div>
+            </article>
+
+            <div class="botaoModal">
+                <a href="#">Cancelar</a>
+                <button type="submit" class="botao-cadastro">Salvar</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="edicaoProduto" class="modalCadastro">
+        <h1>Edição de Produto</h1>
+        <form action="estoque.html" method="GET">
+            <article>
+                    <div>
+                        <label for="produto-nome">Nome:</label>
+                        <input type="text" id="produto-nome" placeholder="Nome do produto" required/>
+                    </div>
+                    <div>
+                        <label for="subtitulo">Subtítulo:</label>
+                        <input type="text" id="subtitulo" placeholder="Um subtitulo para o produto" required/> 
+                    </div>
+            </article>
+            <article>
+                    <div>
+                        <label for="preco">Preço:</label>
+                        <input type="text" id="preco" placeholder="Preço do produto" required/>
+                        <label for="foto">Fotos:</label>
+                        <input type="file" id="foto" accept="image/*" required/>
+                    </div>
+                    <div>
+                        <label for="historia">História:</label>
+                        <textarea id="historia" placeholder="História do produto" required></textarea>
+                    </div>
+            </article>
+
+            <div class="botaoModal">
+                <a href="#">Cancelar</a>
+                <button type="submit" class="botao-cadastro">Salvar</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="deletarProduto" class="modalCadastro">
+        <h1>Tem certeza que deseja excluir este produto?</h1>
+        <form action="estoque.html" method="GET">
+            <div class="botaoModal">
+                <a href="#">Cancelar</a>
+                <button type="submit" class="botao-cadastro">Sim</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <section class="conteudo_footer">
+            <figure>
+                <img src="../assets/images/logo_preta.png" alt="logo legacy locker preta"/>
+            </figure>
+    
+            <section class="sobre">
+                <h5>Sobre</h5>
+                <p>Sobre Nós</p>
+                <p>Trabalhe Conosco</p>
+                <p>Informações Corporativas</p>
+                <p>Central de Ajuda</p>
+            </section>
+    
+            <section class="pagamento">
+                <h5>Formas de Pagamento</h5>
+                <p>Meios de Pagamento</p>
+                <p>Compre com Pontos</p>
+                <p>Cartão de Crédito</p>
+                <p>Nota Fiscal</p>
+            </section>
+    
+            <section class="redes_sociais">
+                <h5>Redes Sociais</h5>
+                <p>WhatsApp</p>
+                <p>Instagram</p>
+                <p>Youtube</p>
+                <p>TikTok</p>
+            </section>
+        </section>
+
+        <h6>Todos os direitos reservados © 2025 | João Belai</h6>
+    </footer>
+</body>
+</html>

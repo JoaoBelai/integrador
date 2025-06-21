@@ -1968,3 +1968,532 @@ footer h6{
 .login form article div input{
     width: 100%;
 }
+
+/* Administradores */
+
+/* navbar adm */
+
+.navAdm{
+    width: 100%;
+    height: 3.75rem; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(0.625rem);
+    font-family: "Montserrat";
+    padding: 5px 40px;
+}
+
+.navAdm .logo{
+    width: 12.5rem;
+    height: 3.313rem;
+}
+
+.navAdm .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.navAdm article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.navAdm article a{
+    width: 20px;
+    font-weight: 500;
+    color: #D4AF37;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navAdm article a:hover{
+    color: #F3DE9B;
+    transition: all 0.3s ease;
+}
+/* Dashboard */
+
+/* Estoque */
+
+.estoque{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 90px;
+    font-family: "Montserrat";
+}
+
+.estoque h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #D4AF37;
+}
+
+.estoque .botaoAdicionar{
+    width: 250px;
+    height: 35px;
+    background-color: #D4AF37;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.estoque .botaoAdicionar:hover{
+    transform: scale(1.05);
+    background-color: #F3DE9B;
+}
+
+/* produtos */
+
+.itensEstoque{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 90px;
+    gap: 65px;
+}
+
+.itemEstoque{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    border: 3px solid #D4AF37;
+    background-color: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-family: "Montserrat";
+    gap: 25px;
+}
+
+.itemEstoque figure{
+    width: 145px;
+    height: 145px;
+}
+
+.itemEstoque figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.itemEstoque .infoEstoque{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.itemEstoque .infoEstoque h2{
+    font-size: 26px;
+    font-weight: 700;
+    width: 700px;
+    color: #FFF;
+}
+
+.itemEstoque .infoEstoque p{
+    font-size: 20px;
+    font-weight: 100;
+    width: 200px;
+    color: #FFF;
+}
+
+.itemEstoque .infoEstoque h3{
+    font-size: 24px;
+    font-weight: 600;
+    width: 300px;
+    color: #D4AF37;
+}
+
+.itemEstoque div{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.itemEstoque .botaoEditar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 30px;
+    background-color: #D4AF37;
+    border-radius: 3px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.itemEstoque .botaoEditar img{
+    width: 25px;
+    height: 25px;
+}
+
+.itemEstoque .botaoEditar:hover{
+    transform: scale(1.05);
+    background-color: #F3DE9B;
+}
+
+.itemEstoque .botaoDeletar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 30px;
+    background-color: #C71E1E;
+    border-radius: 3px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.itemEstoque .botaoDeletar img{
+    width: 25px;
+    height: 25px;
+}
+
+.itemEstoque .botaoDeletar:hover{
+    transform: scale(1.05);
+    background-color: #e92c2c;
+}
+
+/* Modal */
+.modalCadastro{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 20%;
+    align-self: center;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid #D4AF37;
+    background: linear-gradient(180deg,rgba(11, 11, 12, 1) 0%, rgba(23, 23, 25, 1) 60%);
+    padding: 35px 90px;
+    font-family: "Montserrat";
+    gap: 50px;
+}
+
+.modalCadastro:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modalCadastro h1{
+    text-align: center;
+    width: 500px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #D4AF37;
+}
+
+.modalCadastro form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.modalCadastro form article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modalCadastro form article div{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.modalCadastro label{
+    font-size: 24px;
+    color: #D4AF37;
+    font-weight: 500;
+}
+
+.modalCadastro input{
+    width: 400px;
+    padding: 2px 5px;
+    background-color: #262626;
+    border: 1px solid #D4AF37;
+    font-size: 18px;
+    color: #FFF;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.modalCadastro textarea{
+    width: 400px;
+    height: 160px;
+    padding: 2px 5px;
+    background-color: #262626;
+    border: 1px solid #D4AF37;
+    font-size: 18px;
+    color: #FFF;
+    border-radius: 3px;
+    font-family: "Montserrat";
+    resize: none;
+}
+
+.modalCadastro input[type="file"] {
+    width: 400px;
+    background-color: #262626;
+    border: 1px solid #D4AF37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.modalCadastro input[type="file"]::file-selector-button {
+    background-color: #D4AF37;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    cursor: pointer;
+}
+
+.modalCadastro input[type="file"]::file-selector-button:hover{
+    background-color: #F3DE9B;
+}
+
+.modalCadastro .botaoModal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modalCadastro .botaoModal a{
+    margin-top: 36px;
+    align-self: center;
+    width: 300px;
+    height: 50px;
+    border: 3px solid #D4AF37;
+    background: none;
+    color: #D4AF37;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 85px ;
+    cursor: pointer;
+}
+
+.modalCadastro .botaoModal a:hover{
+    transform: scale(1.05);
+}
+
+.modalCadastro .botaoModal button{
+    align-self: center;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background: #D4AF37;
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modalCadastro .botaoModal button:hover{
+    transform: scale(1.05);
+    background-color: #F3DE9B;
+}
+
+
+
+
+/* Administradores */
+
+.administradores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 90px;
+    font-family: "Montserrat";
+}
+
+.administradores h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #D4AF37;
+}
+
+.administradores .botaoAdicionar{
+    width: 260px;
+    height: 35px;
+    background-color: #D4AF37;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.administradores .botaoAdicionar:hover{
+    transform: scale(1.05);
+    background-color: #F3DE9B;
+}
+
+/* lista de administradores */
+
+.listaAdministradores{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 90px;
+    gap: 65px;
+}
+
+.administrador{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    border: 3px solid #D4AF37;
+    background-color: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-family: "Montserrat";
+    gap: 35px;
+}
+
+.administrador figure{
+    width: 150px;
+    height: 150px;
+}
+
+.administrador figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.administrador .infoAdm{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.administrador .infoAdm h2{
+    font-size: 30px;
+    font-weight: 700;
+    width: 700px;
+    color: #FFF;
+}
+
+.administrador .infoAdm p{
+    font-size: 22px;
+    font-weight: 100;
+    width: 200px;
+    color: #FFF;
+}
+
+.administrador  div{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.administrador .botaoEditar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 30px;
+    background-color: #D4AF37;
+    border-radius: 3px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.administrador .botaoEditar img{
+    width: 25px;
+    height: 25px;
+}
+
+.administrador  .botaoEditar:hover{
+    transform: scale(1.05);
+    background-color: #F3DE9B;
+}
+
+.administrador  .botaoDeletar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 30px;
+    background-color: #C71E1E;
+    border-radius: 3px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.administrador  .botaoDeletar img{
+    width: 25px;
+    height: 25px;
+}
+
+.administrador  .botaoDeletar:hover{
+    transform: scale(1.05);
+    background-color: #e92c2c;
+}
