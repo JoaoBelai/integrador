@@ -42,3 +42,6 @@ Desenvolver uma interface de loja virtual com foco em produtos históricos do es
   - Disparam e-mails informando o nível do estoque.
 
 ---
+
+## 🎨 Link do Figma
+-https://www.figma.com/design/hpXqQBsXZemDNmlvrSKUDA/Untitled?node-id=444-1726&t=2u9sK1bZjvJsKh0G-0
